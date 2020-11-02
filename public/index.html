@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.png" tabindex="-1">
+    <title>Body Art</title>
+    <style>
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+    .sr-only-focusable:active,
+    .sr-only-focusable:focus {
+      position: static;
+      width: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      clip: auto;
+    }
+    </style>
+  </head>
+  <body>    
+    <a class="sr-only sr-only-focusable" href="#main-content">skip to main content</a>
+    <noscript>
+      <strong>This Application will not work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>        
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
